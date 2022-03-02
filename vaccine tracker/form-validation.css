@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap');
+
+:root {
+  --blue: #3c6382;
+  --dark-blue: #0a3d62;
+}
+
+
+
+html {
+
+  overflow-x: hidden;
+}
+
+section {
+  min-height: 100vh;
+  padding: 1rem 9%;
+  padding-top: 8rem;
+}
+header {
+  height: 50px;
+  width: 100%;
+  display: flex;  
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 2.5rem;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  color: var(--dark-blue);
+}
+
+header .logo span {
+  color: var(--blue);
+}
+
+header .navbar a {
+  font-size: 0.8rem;
+  margin-left: 0.1rem;
+  padding: 0.5rem 2rem;
+  border-radius: 0.5rem;
+  color: var(--dark-blue);
+  outline: none;
+  text-decoration: none;
+  font-size: 17.6px;
+}
+a{
+  outline: none;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+header .navbar a.active,
+header .navbar a:hover {
+  background: var(--blue);
+  color: #fff;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+.container{
+  margin-top: 100px;
+  
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+

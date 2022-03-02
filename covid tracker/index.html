@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COVID19-INDIA</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <link rel="manifest" href="”manifest.json”" crossorigin="use-credentials" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">C<span class="fas fa-virus"></span>vid-19</a>
+
+      <nav class="navbar">
+        <a href="../maincss/main.html">Home</a>
+        <a href="../vaccine tracker/index.html">Vaccination</a>
+        <a href="../covid tracker/index.html"> Tracker</a>
+        <a href="../about us/aboutus.html">About Us</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero" id="header">
+        <div class="container">
+          <h1>COVID19-INDIA</h1>
+          <div class="main-stats">
+            <div class="last-update">
+              <h3>
+                Last-updated: <span class="update">---------------------</span>
+              </h3>
+            </div>
+            <div class="all-cases">
+              <div class="confirmed c">
+                <h2>Confirmed</h2>
+                <p class="confirmed-no">-----</p>
+              </div>
+              <div class="Recovered c">
+                <h2>Recovered</h2>
+                <p class="Recovered-no">-----</p>
+              </div>
+              <div class="Deceased c">
+                <h2>Deaths</h2>
+                <p class="Deceased-no">-----</p>
+              </div>
+              <div class="Tested c">
+                <h2>Sample Tested</h2>
+                <p class="Tested-no">-----</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="table">
+        <div class="container">
+          <h3>State-Wise Statistics</h3>
+          <table>
+            <tr class="color">
+              <th>Location</th>
+              <th class="c">Confirmed</th>
+              <th class="r">Recovered</th>
+              <th class="d">Deaths</th>
+            </tr>
+            <tbody class="my-table"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <div class="footer">
+        <div class="box-container">
+          <!-- <div class="box">
+              <h3>about us</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate
+                minima soluta distinctio eaque magni veritatis dicta dolore
+                dignissimos totam quis!
+              </p>
+            </div> -->
+          <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">prevent</a>
+            <a href="#">symptoms</a>
+            <a href="#">precautions</a>
+            <a href="#">doctor</a>
+            <a href="#">hand-wash</a>
+          </div>
+
+          <div class="box">
+            <h3>modules</h3>
+            <a href="#">home</a>
+            <a href="#">vaccination</a>
+            <a href="#">tracker</a>
+            <a href="#">about us</a>
+          </div>
+
+          <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">twitter</a>
+            <a href="#">instagram</a>
+            <a href="#">linkedin</a>
+            <a href="#">youtube</a>
+          </div>
+          <div class="box">
+            <form onsubmit="return false">
+              <h3>Get In Touch</h3>
+              <input type="text" id="name" placeholder="Your Name" required />
+              <input
+                type="email"
+                id="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="message"
+                id="message"
+                rows="4"
+                cols="10"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" id="but">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <a href="#home" class="scroll-top">
+        <img src="../maincss/images/virusssss.png" alt="" />
+      </a>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
