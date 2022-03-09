@@ -62,3 +62,4 @@ btn.addEventListener('click', () => {
     Body: inputs.elements["message"].value + "<br>" + inputs.elements["name"].value + "<br>"
   }).then(msg => alert("Successfully sended the email"))
 })
+

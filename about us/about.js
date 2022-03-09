@@ -6,7 +6,7 @@ btn.addEventListener('click', () => {
     Host : "smtp.mailtrap.io",
     Username : "1704df77843f6d",
     Password : "49e9197abe8c15",
-    To : 'xyz@gmail.com',
+    To : 'covidware2022@gmail.com',
     From : inputs.elements["email"].value,
     Subject: 'Contect',
     Body: inputs.elements["message"].value + "<br>" + inputs.elements["name"].value + "<br>"
